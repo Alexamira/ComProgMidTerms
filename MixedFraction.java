@@ -14,15 +14,22 @@ public class MixedFraction extends Fraction{
         this.wholeNumber=wholeNumber;
     }
 
+    public MixedFraction (Fraction fraction) {
+
+    }
+
     public void setWholeNumber(int wholeNumber){
         this.wholeNumber = wholeNumber;
     }
 
     public int getWholeNumber(){return wholeNumber;}
 
-    public Fraction toFraction(){
-        return 
-    }
+    public String toString(){
+      return this.wholeNumber+ " " + super.toString();
 
+    }
+    public Fraction toFraction(){
+         return new Fraction();
+    }
 
 }
