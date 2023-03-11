@@ -31,5 +31,8 @@ public class MixedFraction extends Fraction{
     public Fraction toFraction(){
          return new Fraction();
     }
+    
+    public MixedFraction add (MixedFraction other) {
+    }
 
 }
